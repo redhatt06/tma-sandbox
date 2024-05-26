@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { TonConnectUIProvider } from '@tonconnect/ui-react';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   
+      <TonConnectUIProvider actionsConfiguration={{
+              twaReturnUrl: 't.me/tap_brin_bot/play',
+          }} manifestUrl={`https://6813-176-42-28-222.ngrok-free.app/tonconnect-manifest.json`}>
+      < App />
+      </TonConnectUIProvider>
+
+      
   </React.StrictMode>
 );
 

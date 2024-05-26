@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Tap 100 times", "goal": 100, "progress": 5 },
+  { "id": 2, "name": "Tap 500 times", "goal": 500, "progress": 50 },
+  { "id": 3, "name": "Tap 1000 times", "goal": 1000, "progress": 200 },
+  { "id": 4, "name": "Tap 5000 times", "goal": 5000, "progress": 1234 },
+  { "id": 5, "name": "Tap 10000 times", "goal": 10000, "progress": 6789 }
+]
