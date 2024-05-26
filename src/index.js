@@ -10,7 +10,7 @@ root.render(
    
       <TonConnectUIProvider actionsConfiguration={{
               twaReturnUrl: 't.me/tap_brin_bot/play',
-          }} manifestUrl={`https://6813-176-42-28-222.ngrok-free.app/tonconnect-manifest.json`}>
+          }} manifestUrl={`${window.location.origin}/tonconnect-manifest.json`}>
       < App />
       </TonConnectUIProvider>
 
