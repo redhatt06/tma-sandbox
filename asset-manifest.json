@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tma-sandbox/static/css/main.4ba4968a.css",
+    "main.js": "/tma-sandbox/static/js/main.20c9091f.js",
+    "static/js/453.d16fd545.chunk.js": "/tma-sandbox/static/js/453.d16fd545.chunk.js",
+    "static/media/android-chrome-512x512.png": "/tma-sandbox/static/media/android-chrome-512x512.d7503332a86ee663afc0.png",
+    "index.html": "/tma-sandbox/index.html",
+    "main.4ba4968a.css.map": "/tma-sandbox/static/css/main.4ba4968a.css.map",
+    "main.20c9091f.js.map": "/tma-sandbox/static/js/main.20c9091f.js.map",
+    "453.d16fd545.chunk.js.map": "/tma-sandbox/static/js/453.d16fd545.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ba4968a.css",
+    "static/js/main.20c9091f.js"
+  ]
+}
