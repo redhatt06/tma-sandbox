@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tma-sandbox/static/css/main.a764706d.css",
-    "main.js": "/tma-sandbox/static/js/main.13ed40c2.js",
+    "main.css": "/tma-sandbox/static/css/main.d75faab2.css",
+    "main.js": "/tma-sandbox/static/js/main.b2b573bd.js",
     "static/js/453.d16fd545.chunk.js": "/tma-sandbox/static/js/453.d16fd545.chunk.js",
     "static/media/android-chrome-512x512.png": "/tma-sandbox/static/media/android-chrome-512x512.d7503332a86ee663afc0.png",
     "index.html": "/tma-sandbox/index.html",
-    "main.a764706d.css.map": "/tma-sandbox/static/css/main.a764706d.css.map",
-    "main.13ed40c2.js.map": "/tma-sandbox/static/js/main.13ed40c2.js.map",
+    "main.d75faab2.css.map": "/tma-sandbox/static/css/main.d75faab2.css.map",
+    "main.b2b573bd.js.map": "/tma-sandbox/static/js/main.b2b573bd.js.map",
     "453.d16fd545.chunk.js.map": "/tma-sandbox/static/js/453.d16fd545.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a764706d.css",
-    "static/js/main.13ed40c2.js"
+    "static/css/main.d75faab2.css",
+    "static/js/main.b2b573bd.js"
   ]
 }
