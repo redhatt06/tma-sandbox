@@ -8,3 +8,13 @@
     top: 0;
     z-index: 1000;
   }
+  .navbar-grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 28rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-long{
+    width: 12rem;
+  }

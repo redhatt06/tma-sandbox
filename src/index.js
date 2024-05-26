@@ -9,8 +9,8 @@ root.render(
   <React.StrictMode>
    
       <TonConnectUIProvider actionsConfiguration={{
-              twaReturnUrl: 't.me/tap_brin_bot/play',
-          }} manifestUrl={`${window.location.origin}/tonconnect-manifest.json`}>
+              twaReturnUrl: 'https://t.me/tap_brin_bot/play',
+          }} manifestUrl={`https://redhatt06.github.io/tma-sandbox/tonconnect-manifest.json`}>
       < App />
       </TonConnectUIProvider>
 

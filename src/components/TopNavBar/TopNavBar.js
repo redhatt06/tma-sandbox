@@ -6,9 +6,12 @@ function TopNavBar(props) {
 
     return (
     <div id="stats">
-        <span id="totalTaps">Total Taps: {props.taps}</span> | <span> </span>
-        <span id="balance">Balance: {props.balance} <span className="currency-symbol">B</span></span>
-        <TonConnectButton />
+        <div className="navbar-grid-container">
+        <p>asd</p>
+        <p className="text-long">Total Taps: {props.taps} | Balance: {props.balance} B</p> 
+        <TonConnectButton style={{float:"right"}}/>
+        </div>
+       
     </div>
     )
 }
