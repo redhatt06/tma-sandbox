@@ -1,0 +1,1 @@
+(self.webpackChunktap_coin_game=self.webpackChunktap_coin_game||[]).push([[147],{15340:()=>{},79838:()=>{}}]);

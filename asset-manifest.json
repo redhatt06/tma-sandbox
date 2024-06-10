@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/tma-sandbox/static/css/main.d75faab2.css",
-    "main.js": "/tma-sandbox/static/js/main.b2b573bd.js",
-    "static/js/453.d16fd545.chunk.js": "/tma-sandbox/static/js/453.d16fd545.chunk.js",
+    "main.css": "/tma-sandbox/static/css/main.c68694b9.css",
+    "main.js": "/tma-sandbox/static/js/main.a3467c05.js",
+    "static/js/13.e8548f10.chunk.js": "/tma-sandbox/static/js/13.e8548f10.chunk.js",
+    "static/js/851.79fbdb57.chunk.js": "/tma-sandbox/static/js/851.79fbdb57.chunk.js",
+    "static/js/348.8cf10246.chunk.js": "/tma-sandbox/static/js/348.8cf10246.chunk.js",
+    "static/js/147.2976cec9.chunk.js": "/tma-sandbox/static/js/147.2976cec9.chunk.js",
+    "static/js/875.5562ba6c.chunk.js": "/tma-sandbox/static/js/875.5562ba6c.chunk.js",
+    "static/js/206.98ca98df.chunk.js": "/tma-sandbox/static/js/206.98ca98df.chunk.js",
+    "static/js/541.d6f57864.chunk.js": "/tma-sandbox/static/js/541.d6f57864.chunk.js",
+    "static/js/880.7957fd40.chunk.js": "/tma-sandbox/static/js/880.7957fd40.chunk.js",
+    "static/js/151.e1891be3.chunk.js": "/tma-sandbox/static/js/151.e1891be3.chunk.js",
+    "static/js/267.c22f4412.chunk.js": "/tma-sandbox/static/js/267.c22f4412.chunk.js",
+    "static/media/maticLogo.png": "/tma-sandbox/static/media/maticLogo.5eaa842fc037fa3a047c.png",
     "static/media/android-chrome-512x512.png": "/tma-sandbox/static/media/android-chrome-512x512.d7503332a86ee663afc0.png",
-    "index.html": "/tma-sandbox/index.html",
-    "main.d75faab2.css.map": "/tma-sandbox/static/css/main.d75faab2.css.map",
-    "main.b2b573bd.js.map": "/tma-sandbox/static/js/main.b2b573bd.js.map",
-    "453.d16fd545.chunk.js.map": "/tma-sandbox/static/js/453.d16fd545.chunk.js.map"
+    "static/media/ethLogo.png": "/tma-sandbox/static/media/ethLogo.9fc8722612ab286141d0.png",
+    "static/media/toncoinlogo.png": "/tma-sandbox/static/media/toncoinlogo.875158a750318d207792.png",
+    "index.html": "/tma-sandbox/index.html"
   },
   "entrypoints": [
-    "static/css/main.d75faab2.css",
-    "static/js/main.b2b573bd.js"
+    "static/css/main.c68694b9.css",
+    "static/js/main.a3467c05.js"
   ]
 }
