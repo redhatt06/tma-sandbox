@@ -1,0 +1,23 @@
+.settings-main-grid {
+  height: 100%;
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+}
+.container-background {
+  background-color: #18181b;
+}
+
+@media (max-width: 768px) {
+  .settings-main-grid {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+  }
+}
+.min-height-balance-table {
+  min-height: 600px;
+}
+h1 {
+  color: white;
+}

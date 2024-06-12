@@ -1,9 +1,11 @@
-body, html, #root {
+body,
+html,
+#root {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Roboto', sans-serif;
-  background-color: #151C23;
+  font-family: "Roboto", sans-serif;
+  background-color: #151c23;
   font-weight: 500;
 }
 
@@ -11,11 +13,13 @@ body, html, #root {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  overflow-y: hidden;
+  width: 100%;
 }
 
 #stats {
   width: 100%;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   text-align: center;
   padding: 10px 0;
@@ -36,16 +40,16 @@ body, html, #root {
   flex: 1;
   margin-top: 60px; /* Height of the top nav bar */
   margin-bottom: 60px; /* Height of the bottom nav bar */
-  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  overflow-y: scroll;
   padding: 10px; /* Padding around content */
-  background-color: #151C23; /* Background color of the content area */
+  background-color: #151c23; /* Background color of the content area */
 }
 
 /* Top navigation bar */
 .top-nav-bar {
   height: 60px; /* Adjust height as needed */
-  background-color: #212B36; /* Top nav background color */
-  color: #7FD660; /* Text color */
+  background-color: #212b36; /* Top nav background color */
+  color: #7fd660; /* Text color */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,8 +63,8 @@ body, html, #root {
 /* Bottom navigation bar */
 .bottom-nav-bar {
   height: 60px; /* Adjust height as needed */
-  background-color: #212B36; /* Bottom nav background color */
-  color: #7FD660; /* Text color */
+  background-color: #212b36; /* Bottom nav background color */
+  color: #7fd660; /* Text color */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -79,7 +83,7 @@ body, html, #root {
 }
 
 .nav-item.active {
-  background-color: #388E3C;
+  background-color: #388e3c;
 }
 
 /* Responsive design adjustments */
@@ -97,6 +101,8 @@ body, html, #root {
   .content {
     margin-top: 50px; /* Adjust for smaller top nav height */
     margin-bottom: 50px; /* Adjust for smaller bottom nav height */
+    overflow: hidden;
+    width: 100%;
   }
 }
 
@@ -114,5 +120,7 @@ body, html, #root {
   .content {
     margin-top: 45px; /* Adjust for smaller top nav height */
     margin-bottom: 45px; /* Adjust for smaller bottom nav height */
+    z-index: 1;
+    width: 100%;
   }
 }

@@ -11,10 +11,7 @@
   .navbar-grid-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 28rem;
+    grid-gap: 10px;
     justify-content: center;
     align-items: center;
-  }
-  .text-long{
-    width: 12rem;
   }
