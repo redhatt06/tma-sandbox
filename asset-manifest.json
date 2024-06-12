@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/tma-sandbox/static/css/main.c68694b9.css",
-    "main.js": "/tma-sandbox/static/js/main.389c163e.js",
+    "main.js": "/tma-sandbox/static/js/main.f0a4742f.js",
     "static/js/13.e8548f10.chunk.js": "/tma-sandbox/static/js/13.e8548f10.chunk.js",
     "static/js/851.79fbdb57.chunk.js": "/tma-sandbox/static/js/851.79fbdb57.chunk.js",
     "static/js/348.8cf10246.chunk.js": "/tma-sandbox/static/js/348.8cf10246.chunk.js",
     "static/js/147.2976cec9.chunk.js": "/tma-sandbox/static/js/147.2976cec9.chunk.js",
     "static/js/875.5562ba6c.chunk.js": "/tma-sandbox/static/js/875.5562ba6c.chunk.js",
-    "static/js/600.984908f8.chunk.js": "/tma-sandbox/static/js/600.984908f8.chunk.js",
     "static/js/206.98ca98df.chunk.js": "/tma-sandbox/static/js/206.98ca98df.chunk.js",
     "static/js/541.d6f57864.chunk.js": "/tma-sandbox/static/js/541.d6f57864.chunk.js",
     "static/js/880.7957fd40.chunk.js": "/tma-sandbox/static/js/880.7957fd40.chunk.js",
@@ -21,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.c68694b9.css",
-    "static/js/main.389c163e.js"
+    "static/js/main.f0a4742f.js"
   ]
 }
