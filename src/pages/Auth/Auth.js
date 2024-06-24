@@ -2,7 +2,12 @@ import React, { useState, useContext, useEffect } from "react";
 import { useConnect, useSignMessage, useAccount } from "wagmi";
 import { Tabs, Tab, Box, Button, TextField, Typography } from "@mui/material";
 import { AuthContext } from "../../context/AuthContext";
-import { TonConnectButton, useTonAddress } from "@tonconnect/ui-react";
+import {
+  TonConnectButton,
+  TonConnectUI,
+  useTonAddress,
+  useTonConnectUI,
+} from "@tonconnect/ui-react";
 import { config } from "../../utils/wagmiConfig";
 
 const Auth = () => {
@@ -11,6 +16,7 @@ const Auth = () => {
   const [activeTab, setActiveTab] = useState("ethereum");
   const [signedMessage, setSignedMessage] = useState("");
   const [customErr, setCustomErr] = useState("");
+  const tonConnectUI = useTonConnectUI();
   const { address: ethereumAddress, isConnected: isEthereumConnected } =
     useAccount();
   const tonAddress = useTonAddress();
@@ -40,7 +46,19 @@ const Auth = () => {
   };
 
   const handleTonLogin = async () => {
-    // Implement TonWeb login logic
+    try {
+      const signature = "dummy";
+      setSignedMessage(signature);
+      const response = await loginWallet({
+        network: "ton",
+        address: tonAddress,
+        message: "Welcome to our community",
+        signature,
+      });
+    } catch (error) {
+      setCustomErr(error);
+      console.error("Ethereum login failed", error);
+    }
   };
 
   const handleEmailLogin = async (email, password) => {
@@ -85,14 +103,14 @@ const Auth = () => {
             label="TON Wallet"
             value="ton"
           />
-          <Tab
+          {/* <Tab
             label="Email"
             value="email"
           />
           <Tab
             label="Telegram"
             value="telegram"
-          />
+          /> */}
         </Tabs>
 
         {activeTab === "ethereum" && (

@@ -12,4 +12,12 @@ export const PaymentApi = {
     const response = await httpClient.post("/payment/direct-payment/pay", data);
     return response.data;
   },
+  //
+  createTonContractPayment: async (data) => {
+    const response = await httpClient.post(
+      "/payment/contract-payment/pay-ton",
+      data
+    );
+    return response.data;
+  },
 };
