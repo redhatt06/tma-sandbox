@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tma-sandbox/static/css/main.c68694b9.css",
-    "main.js": "/tma-sandbox/static/js/main.db7e2cac.js",
+    "main.css": "/tma-sandbox/static/css/main.808919d2.css",
+    "main.js": "/tma-sandbox/static/js/main.d0573bb5.js",
     "static/js/13.e8548f10.chunk.js": "/tma-sandbox/static/js/13.e8548f10.chunk.js",
     "static/js/851.79fbdb57.chunk.js": "/tma-sandbox/static/js/851.79fbdb57.chunk.js",
     "static/js/348.8cf10246.chunk.js": "/tma-sandbox/static/js/348.8cf10246.chunk.js",
@@ -10,17 +10,18 @@
     "static/js/600.984908f8.chunk.js": "/tma-sandbox/static/js/600.984908f8.chunk.js",
     "static/js/206.98ca98df.chunk.js": "/tma-sandbox/static/js/206.98ca98df.chunk.js",
     "static/js/541.d6f57864.chunk.js": "/tma-sandbox/static/js/541.d6f57864.chunk.js",
-    "static/js/880.7957fd40.chunk.js": "/tma-sandbox/static/js/880.7957fd40.chunk.js",
-    "static/js/151.555f3eec.chunk.js": "/tma-sandbox/static/js/151.555f3eec.chunk.js",
+    "static/js/880.0cbac7f6.chunk.js": "/tma-sandbox/static/js/880.0cbac7f6.chunk.js",
+    "static/js/151.a4c33f32.chunk.js": "/tma-sandbox/static/js/151.a4c33f32.chunk.js",
     "static/js/267.c22f4412.chunk.js": "/tma-sandbox/static/js/267.c22f4412.chunk.js",
     "static/media/maticLogo.png": "/tma-sandbox/static/media/maticLogo.5eaa842fc037fa3a047c.png",
     "static/media/android-chrome-512x512.png": "/tma-sandbox/static/media/android-chrome-512x512.d7503332a86ee663afc0.png",
+    "static/media/index.cjs": "/tma-sandbox/static/media/index.853dc4169bed2b3f0674.cjs",
     "static/media/ethLogo.png": "/tma-sandbox/static/media/ethLogo.9fc8722612ab286141d0.png",
     "static/media/toncoinlogo.png": "/tma-sandbox/static/media/toncoinlogo.875158a750318d207792.png",
     "index.html": "/tma-sandbox/index.html"
   },
   "entrypoints": [
-    "static/css/main.c68694b9.css",
-    "static/js/main.db7e2cac.js"
+    "static/css/main.808919d2.css",
+    "static/js/main.d0573bb5.js"
   ]
 }
