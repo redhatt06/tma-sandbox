@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tma-sandbox/static/css/main.355d06d2.css",
-    "main.js": "/tma-sandbox/static/js/main.87d86a50.js",
+    "main.css": "/tma-sandbox/static/css/main.23845742.css",
+    "main.js": "/tma-sandbox/static/js/main.621a2f51.js",
     "static/js/13.e8548f10.chunk.js": "/tma-sandbox/static/js/13.e8548f10.chunk.js",
     "static/js/851.79fbdb57.chunk.js": "/tma-sandbox/static/js/851.79fbdb57.chunk.js",
     "static/js/348.8cf10246.chunk.js": "/tma-sandbox/static/js/348.8cf10246.chunk.js",
@@ -21,7 +21,7 @@
     "index.html": "/tma-sandbox/index.html"
   },
   "entrypoints": [
-    "static/css/main.355d06d2.css",
-    "static/js/main.87d86a50.js"
+    "static/css/main.23845742.css",
+    "static/js/main.621a2f51.js"
   ]
 }
