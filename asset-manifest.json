@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tma-sandbox/static/css/main.23845742.css",
-    "main.js": "/tma-sandbox/static/js/main.97e27d9d.js",
+    "main.js": "/tma-sandbox/static/js/main.6b00c7c0.js",
     "static/js/13.e8548f10.chunk.js": "/tma-sandbox/static/js/13.e8548f10.chunk.js",
     "static/js/851.79fbdb57.chunk.js": "/tma-sandbox/static/js/851.79fbdb57.chunk.js",
     "static/js/348.8cf10246.chunk.js": "/tma-sandbox/static/js/348.8cf10246.chunk.js",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.23845742.css",
-    "static/js/main.97e27d9d.js"
+    "static/js/main.6b00c7c0.js"
   ]
 }
